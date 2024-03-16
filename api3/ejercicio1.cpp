@@ -21,17 +21,11 @@ void bubbleSort(string arr[], int n)
 
 int main()
 {
-    string licencias[] = {"LB2362", "VD2563", "DS7856", "GT8569", "SD4572", "WF4004", "TG4565", "BP0456", "KL4580", "DF4587"};
-    int n = sizeof(licencias) / sizeof(licencias[0]);
+    int a = 10;
+    int b = 20;
+    int c = 30;
 
-    bubbleSort(licencias, n);
+    int op = c += b;
 
-    cout << "Licencias ordenadas:" << endl;
-    for (int i = 0; i < n; i++)
-    {
-        cout << licencias[i] << " ";
-    }
-    cout << endl;
-
-    return 0;
+    cout << op;
 }
